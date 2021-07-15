@@ -1,0 +1,100 @@
+body{
+}
+
+.encabezado{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align:center;
+	background: rgba(40, 159, 196, 0.589);
+	color: rgb(37, 94, 146);
+	padding: 1em;
+	border-radius: 20px
+}
+
+.barra-de-navegacion{
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+	background-color: rgb(136, 65, 65);
+
+}
+
+.barra-de-navegacion ul {
+    list-style-type: none;
+    margin-left: 1em;
+	margin-right: 1em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.barra-de-navegacion li {
+    float: left;
+
+}
+
+.barra-de-navegacion li a {
+    display: block;
+    color: rgb(67, 102, 179); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barra-de-navegacion li a:hover {
+    background-color: rgb(5, 83, 148);
+}
+
+.imagen-p{
+	margin-top: 2em;
+	text-align:center;
+}
+
+.parrfo-1{
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.galeria-c{
+	margin-top: 2em;
+	padding-left: 2em;
+	display:block;
+}
+
+.video{
+	margin-top: 2em;
+	text-align:center;
+}
+
+.video{
+	margin-top: 5em;
+	text-align:autos;
+    height: auto;
+	background: rgb(36, 89, 168);
+}
+
+div.galeria {
+	margin-left: 2em;
+	margin-right: 2em;
+
+    border: 1px solid rgb(54, 123, 180);
+    float: left;
+    width: 25%;
+}	
+
+div.galeria:hover {
+    border: 1px solid #777;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+	background: rgb(0, 255, 98);
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
